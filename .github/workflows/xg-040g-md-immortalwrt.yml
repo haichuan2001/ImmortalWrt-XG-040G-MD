@@ -32,7 +32,8 @@ on:
     - cron: '0 0 * * *'
 
 env:
-  CONFIG_FILE: "config/xg-040g-md.config"
+ # CONFIG_FILE: "config/xg-040g-md.config"
+  CONFIG_FILE: "config/040.config"
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-25.12  # 默认分支，会被动态覆盖
   UPLOAD_FIRMWARE: true
